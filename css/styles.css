@@ -127,6 +127,10 @@ img {
 .section-hero {
   background-color: #2e2f42;
   padding: 188px 0;
+  background-image: url(../images/people-office.jpg);
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
 }
 
 .title {
@@ -194,6 +198,18 @@ img {
   width: calc((100% - 72px) / 4);
 }
 
+.advantages-icon {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border: 1px solid #8e8f99;
+  background: #f4f4fd;
+  border-radius: 4px;
+  width: 264px;
+  height: 112px;
+  margin-bottom: 8px;
+}
+
 .advantages {
   color: #2e2f42;
   font-size: 20px;
@@ -258,7 +274,7 @@ img {
 }
 
 .card-content {
-  padding: 32px 0;
+  padding: 32px 0 8px;
 }
 
 .skills {
@@ -270,6 +286,28 @@ img {
   font-weight: 400;
   line-height: 1.5;
   letter-spacing: 0.02em;
+}
+
+.card-icon {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 24px;
+  padding-bottom: 32px;
+}
+
+.social-icon {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 24px;
+  fill: #f4f4fd;
+  border: 0px solid #4d5ae5;
+  border-radius: 50%;
+  width: 40px;
+  height: 40px;
+  background-color: #4d5ae5;
+  padding: 12px;
 }
 
 /* END section-team  */
@@ -353,6 +391,31 @@ img {
   line-height: 1.5;
   letter-spacing: 0.02em;
   font-weight: 400;
+}
+
+.footer-media {
+  display: flex;
+  justify-content: center;
+  font-style: normal;
+  color: #fff;
+}
+
+.footer-icon {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 16px;
+}
+
+.social-icon-footer {
+  gap: 24px;
+  fill: #f4f4fd;
+  border: 0px solid #4d5ae5;
+  border-radius: 50%;
+  width: 40px;
+  height: 40px;
+  background-color: #4d5ae5;
+  padding: 8px;
 }
 
 /* END footer */
