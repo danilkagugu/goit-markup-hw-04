@@ -41,9 +41,6 @@ img {
 
 .header {
   border-bottom: 1px solid #e7e9fc;
-  box-shadow: 0px 1px 6px 0px rgba(46, 47, 66, 0.08),
-    0px 1px 1px 0px rgba(46, 47, 66, 0.16),
-    0px 2px 1px 0px rgba(46, 47, 66, 0.08);
 }
 
 .header-inner {
@@ -65,23 +62,12 @@ img {
   padding: 24px 0;
   font-family: 'Raleway', sans-serif;
   text-decoration: none;
-  color: #404bbf;
+  color: #4d5ae5;
   font-size: 18px;
   font-weight: 700;
   line-height: 1.17;
   letter-spacing: 0.03em;
   text-transform: uppercase;
-  position: relative;
-}
-
-.logo-header:hover::after {
-  content: '';
-  position: absolute;
-  left: 0;
-  bottom: -1px;
-  height: 4px;
-  background-color: #404bbf;
-  border-radius: 2px;
 }
 
 .logo-studio {
@@ -101,7 +87,6 @@ img {
   color: #2e2f42;
   text-decoration: none;
   line-height: 1.5;
-  transition: color 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 
 .nav-link:hover {
@@ -113,18 +98,6 @@ img {
 .nav-link:focus {
   color: #404bbf;
 }
-
-.nav-link:hover::after,
-.nav-link:focus::after {
-  position: absolute;
-  left: 0;
-  bottom: -1px;
-  height: 4px;
-  background-color: #404bbf;
-  border-radius: 4px;
-  content: '';
-}
-
 .page-address {
   font-style: normal;
 }
