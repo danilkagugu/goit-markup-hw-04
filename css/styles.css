@@ -352,6 +352,8 @@ img {
   box-shadow: 0px 2px 1px 0px rgba(46, 47, 66, 0.08),
     0px 1px 1px 0px rgba(46, 47, 66, 0.16),
     0px 1px 6px 0px rgba(46, 47, 66, 0.08);
+  animation: ;
+  transition: box-shadow 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 
 .portfolio-image {
@@ -359,20 +361,19 @@ img {
   overflow: hidden;
 }
 
-.portfolio-overlay {
-  padding: 40px 32px 164px;
-  background-color: #4d5ae5;
-  position: absolute;
-  inset: 0;
-  transform: translateY(100%);
-  transition: transform 1s;
-}
-
-.portfolio-image:hover .portfolio-overlay {
+.portfolio-image:hover .portfolio-discription {
   transform: translateY(0%);
 }
 
 .portfolio-discription {
+  position: absolute;
+  top: 0;
+  border-color: #4d5ae5;
+  height: 100%;
+  width: 100%;
+  transform: translateY(100%);
+  transition: transform 250ms cubic-bezier(0.4, 0, 0.2, 1);
+  padding: 40px 32px;
   font-weight: 400;
   text-align: center;
   color: #f4f4fd;
