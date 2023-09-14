@@ -368,7 +368,7 @@ img {
 .portfolio-discription {
   position: absolute;
   top: 0;
-  border-color: #4d5ae5;
+  background-color: #4d5ae5;
   height: 100%;
   width: 100%;
   transform: translateY(100%);
